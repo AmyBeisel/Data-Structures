@@ -54,6 +54,20 @@ class Quene1():
             # -= : removing one element at a time.  
             self.size -= 1
             return self.storage.remove_head()
+
+"""
+3. What is the difference between using an array vs. a linked list when 
+   implementing a Queue?
+
+   When implementing a queue, we have to remove the first element and/or add
+   a new element as the last element if we use an array
+   
+   When using a linked list, we have to add an element to the tail,
+   therefore changing the address of the last element and of the tail.
+   
+   If we have to dequeue, we have to remove the head, and then to reallocate
+   an address to every other elements.
+"""
     
 
 
