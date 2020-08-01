@@ -131,6 +131,7 @@ class BSTNode:
         #3. add child nodes - iterate: while there are items in the qeque
         #4. dequeue/pop from the deque, point to result and print
         #5. add left and right childern to deque
+        #
 
         qq = deque()
         qq.append(self)
